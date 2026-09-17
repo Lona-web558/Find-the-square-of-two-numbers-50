@@ -1,0 +1,45 @@
+<! Doctype html>
+
+<html>
+    <head>
+        <style>
+         body {
+             background-color: cyan;
+             font-family: Sans-Serif;
+         }
+                
+        </style>
+    </head>
+    <header>
+       <title>Find the square of two numbers</title>
+        
+    </header>
+    <body>
+        <div>
+            <h1>Find the square of two numbers</h1>
+            <p>This program finds the square  of two numbers.</p>
+        </div>
+        <div>
+            <button type="button" onclick="square()">Press Here</button>
+        </div>
+    </body>
+    <script>
+       
+       
+
+// find the square of a number
+
+function square() {
+	let num1 = parseFloat(window.prompt("Enter the first number : "));
+	let num2 = parseFloat(window.prompt("Enter the second number : "));
+	
+	
+	let square = num1 * num2;
+	
+	window.alert("The square is : " + square);
+}
+        
+    </script>
+    
+    
+</html>
